@@ -6,12 +6,12 @@ import flask
 global count
 count = 0
 
-locStateExposureTable = r"static\state_exposure_data.csv"
-locVehicleClassTable = r'C:\Users\Shivam\Desktop\poc_python\static\vehicle_class_data.csv'
-locRawDataProtection1 = r'C:\Users\Shivam\Desktop\poc_python\static\raw_data_protection1.csv'
-locRawDataProtection2 = r'C:\Users\Shivam\Desktop\poc_python\static\raw_data_protection2.csv'
-locConstantValuesProtection1 = r'C:\Users\Shivam\Desktop\poc_python\static\values_protection1_data.csv'
-locConstantValuesProtection2 = r'C:\Users\Shivam\Desktop\poc_python\static\values_protection2_data.csv'
+locStateExposureTable = r'static\state_exposure_data.csv'
+locVehicleClassTable = r'static\vehicle_class_data.csv'
+locRawDataProtection1 = r'static\raw_data_protection1.csv'
+locRawDataProtection2 = r'static\raw_data_protection2.csv'
+locConstantValuesProtection1 = r'static\values_protection1_data.csv'
+locConstantValuesProtection2 = r'static\values_protection2_data.csv'
 
 
 class GetRawData:

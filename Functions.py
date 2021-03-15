@@ -1,7 +1,6 @@
 import pandas as pds
 import numpy as np
 import math
-import flask
 
 global count
 count = 0

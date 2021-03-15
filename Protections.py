@@ -1,8 +1,7 @@
 import pandas as pds
 import numpy as np
 import math
-import flask
-from file import Functions
+import Functions
 import logging
 
 locStateExposureTable = r'static\state_exposure_data.csv'

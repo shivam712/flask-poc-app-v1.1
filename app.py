@@ -10,7 +10,7 @@ app.config['EXPLAIN_TEMPLATE_LOADING'] = True
 
 @app.route("/")
 def home():
-    return "This is the main page! <h1>I am redirecting from home function<h1>"
+    return render_template('home.html')
 
 @app.route("/<name>")
 def user(name):
